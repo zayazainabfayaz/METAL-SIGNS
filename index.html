@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>METALSIGNS — Donad Investments Pvt Ltd</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=PT+Mono&display=swap" rel="stylesheet">
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;font-family:'Inter', sans-serif;}
+    body{background:#120000;color:#fff;overflow-x:hidden;}
+    header{display:flex;justify-content:space-between;align-items:center;padding:30px 80px;position:fixed;top:0;width:100%;z-index:999;background:rgba(0,0,0,0.3);backdrop-filter:blur(6px);}    
+    header .logo{font-size:28px;font-weight:700;letter-spacing:1px;}
+    header nav a{margin-left:30px;color:#fff;text-decoration:none;font-weight:500;}
+
+    /* HERO */
+    .hero{height:100vh;display:flex;align-items:center;padding:0 80px;background: linear-gradient(135deg, #1a0000, #7a0000);}    
+    .hero h1{font-family:'PT Mono', monospace;font-size:58px;line-height:1.2;margin-bottom:20px;}
+    .hero p{max-width:550px;font-size:16px;line-height:1.7;margin-bottom:30px;color:#ddd;}
+    .hero button{padding:15px 28px;border-radius:30px;border:none;background:#ff5e5e;color:#fff;font-weight:600;font-size:15px;cursor:pointer;}
+
+    /* CONTACT SECTION */
+    .contact-section{padding:120px 80px;background:linear-gradient(135deg,#2b0000,#500000);}    
+    .contact-grid{display:flex;gap:60px;align-items:flex-start;}
+    .contact-info h2{font-size:36px;margin-bottom:30px;}
+    .contact-item{margin-bottom:25px;}
+    .contact-item h3{font-size:20px;margin-bottom:5px;}
+
+    form{background:rgba(255,255,255,0.05);padding:40px;border-radius:15px;width:100%;max-width:500px;}
+    form input, form select, form textarea{width:100%;padding:15px;margin-bottom:20px;border-radius:8px;border:1px solid #734343;background:rgba(255,255,255,0.06);color:white;}
+    form button{padding:14px 26px;border-radius:25px;background:#ff5e5e;color:#fff;border:none;font-weight:600;cursor:pointer;}
+
+    /* CUSTOM PACKAGE */
+    .custom{padding:100px 80px;text-align:center;background:linear-gradient(135deg,#3b0000,#700000);}    
+    .custom button{padding:15px 28px;border-radius:30px;border:2px solid #ff5e5e;color:#ff5e5e;background:none;font-weight:600;cursor:pointer;margin-top:20px;}
+
+    /* FOOTER */
+    footer{background:#0b0000;padding:80px 80px;color:#ccc;display:flex;justify-content:space-between;flex-wrap:wrap;}
+    footer .col{max-width:250px;margin-bottom:40px;}
+    footer h4{margin-bottom:15px;color:#fff;font-weight:600;font-size:20px;}
+    footer a{color:#ccc;text-decoration:none;display:block;margin-bottom:8px;}
+    footer input{width:100%;padding:10px;border-radius:8px;background:#1f1f1f;border:none;color:#fff;margin-bottom:10px;}
+    footer button{padding:10px 20px;border-radius:20px;border:none;background:#ff5e5e;color:#fff;cursor:pointer;}
+
+    .copyright{text-align:center;width:100%;padding-top:40px;border-top:1px solid #300;}    
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">METALSIGNS</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Products</a>
+      <a href="#testimonials">Portfolio</a>
+      <a href="#contact">Contact Us</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div>
+      <h1>Enter the experience of passion, knowledge & Creativity</h1>
+      <p>Established in 2000, Metalsigns is a registered trademark of Donad Investments Pvt. Ltd. metalsigns offer various services and was established with the vision of playing a leading role in the world's signage, awards & personalized gifts industry. metalsigns has since grown, shaped and matured into maintaining a prominent position and reputation as an elite body of creative and technical resource.</p>
+      <button>Get Started Today</button>
+    </div>
+      <div id="particle-sphere"></div>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h2>Crafting Ideas into Reality</h2>
+        <div class="contact-item"><h3>Our Male Office</h3><p>G.Feeroaz Lodge, Ameenee Goalhi, Maldives</p></div>
+        <div class="contact-item"><h3>Telephone</h3><p>+960 333 5560</p></div>
+        <div class="contact-item"><h3>Email</h3><p>admin@metalsigns.com.mv</p></div>
+        <div class="contact-item"><h3>Working Hours</h3><p>Sun–Thu: 9 AM – 5 PM<br>Fri–Sat: Closed</p></div>
+      </div>
+
+      <form>
+        <input type="text" placeholder="Your Name" />
+        <input type="email" placeholder="Email Address" />
+        <input type="text" placeholder="Phone Number" />
+        <select>
+          <option>Select a service</option>
+          <option>Signboards</option>
+          <option>Engraving</option>
+          <option>Printing</option>
+          <option>Trophies & Awards</option>
+          <option>ID Cards & Nametags</option>
+          <option>Garments</option>
+          <option>Embroidery</option>
+        </select>
+        <textarea rows="5" placeholder="Your Message"></textarea>
+        <button>SEND MESSAGE</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="custom">
+    <h2>Need a Custom Solution?</h2>
+    <p>We work with retailers, service providers, freelancers and more. Let's create the best products for you.</p>
+    <button>Request Custom Package</button>
+  </section>
+
+  <footer>
+    <div class="col">
+      <h4>METALSIGNS</h4>
+      <p>Metalsigns, Donad Garments, Design by Metalsigns and Adam & Co. are registered trademarks of Donad Investments Private Limited.</p>
+    </div>
+    <div class="col">
+      <h4>Quick Links</h4>
+      <a href="#">About Us</a>
+      <a href="#">Our Services</a>
+      <a href="#">Products</a>
+      <a href="#">Portfolio</a>
+      <a href="#">Contact</a>
+    </div>
+    <div class="col">
+      <h4>Services</h4>
+      <a href="#">Signboards</a>
+      <a href="#">Engraving</a>
+      <a href="#">Printing</a>
+      <a href="#">Trophies & Awards</a>
+      <a href="#">ID Cards & Nametags</a>
+      <a href="#">Garments</a>
+      <a href="#">Embroidery</a>
+    </div>
+    <div class="col">
+      <h4>Newsletter</h4>
+      <input type="email" placeholder="Your Email" />
+      <button>SUBSCRIBE</button>
+    </div>
+
+    <div class="copyright">© 2025 METALSIGNS - Donad Investments Pvt Ltd. All Rights Reserved.</div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.150.1/build/three.min.js"></script>
+  <script>
+    const container = document.getElementById('particle-sphere');
+    container.style.width = '400px';
+    container.style.height = '400px';
+    container.style.marginLeft = '80px';
+
+    const scene = new THREE.Scene();
+    const camera = new THREE.PerspectiveCamera(75, 1, 0.1, 1000);
+    const renderer = new THREE.WebGLRenderer({ alpha: true });
+    renderer.setSize(400, 400);
+    container.appendChild(renderer.domElement);
+
+    const particles = new THREE.BufferGeometry();
+    const count = 800;
+    const positions = new Float32Array(count * 3);
+
+    for (let i = 0; i < count; i++) {
+      const r = 1.6;
+      const theta = Math.random() * 2 * Math.PI;
+      const phi = Math.acos(2 * Math.random() - 1);
+      positions[i*3] = r * Math.sin(phi) * Math.cos(theta);
+      positions[i*3+1] = r * Math.sin(phi) * Math.sin(theta);
+      positions[i*3+2] = r * Math.cos(phi);
+    }
+
+    particles.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+
+    const material = new THREE.PointsMaterial({ size: 0.03 });
+    const sphere = new THREE.Points(particles, material);
+    scene.add(sphere);
+
+    camera.position.z = 5;
+
+    function animate() {
+      requestAnimationFrame(animate);
+      sphere.rotation.y += 0.002;
+      sphere.rotation.x += 0.001;
+      renderer.render(scene, camera);
+    }
+
+    animate();
+  </script>
+</body>
+</html>
